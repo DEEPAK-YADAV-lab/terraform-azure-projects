@@ -16,3 +16,6 @@ resource "azurerm_resource_group" "example" {
   name     = "example"
   location = "West Europe"
 }
+git remote add origin https://github.com/DEEPAK-YADAV-lab/terraform-azure-projects.git
+git branch -M main
+git push -u origin main
